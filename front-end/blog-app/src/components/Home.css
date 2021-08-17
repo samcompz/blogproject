@@ -1,0 +1,238 @@
+/*=============================
+category
+======================================*/
+
+/* major sections */
+
+*{
+    color: #fff;
+}
+
+.container-top {
+    position: relative;
+    width: 100%;
+    background-color: black;
+    height: 70vh;
+    margin: 0;
+    background-image: url("../images/pictwo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -2;
+}
+
+.container-top .about-page {
+    height: 70vh;
+    background-image: url("../images/picone.jpg");
+}
+
+.blog-page {
+    position: relative;
+    width: 100%;
+    background-color: rgb(177, 131, 131);
+    height: 40vh;
+    margin: 0;
+}
+
+.login-top {
+    position: relative;
+    width: 100%;
+    background-color: rgb(177, 131, 131);
+    height: 15vh;
+    margin: 0;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+.bg-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+}
+
+.hero-text {
+    color: rgb(245, 22, 22);
+    font-size: 3rem;
+    font-family: 'Kanit', sans-serif;
+    
+}
+
+.heading {
+    width: 100%;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Kanit', sans-serif;
+    text-transform: uppercase;
+    margin: 1rem 6rem 1rem 6rem;
+    color: rgb(177, 131, 131);
+}
+
+.main {
+    width: 100%;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: dimgray;
+    border-radius: 10px;
+}
+
+.cat-card{
+    width: 32%;
+    position: relative;
+    padding: 9px;
+}
+
+.cat-card-top {
+    width: 100%;
+    height: 180px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.cat-name {
+    margin: 1rem;
+    padding: 0.5rem 1rem;
+    position: absolute;
+    font-family: 'Work Sans', sans-serif;
+    bottom: 0;
+    right: 0;
+    background-color: #bb564698;
+    cursor: pointer;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    transition: all 1s ease-in-out ;
+    transition-property: color, opacity;
+}
+
+.cat-name:hover {
+    color: white;
+    opacity: 0.5;
+}
+
+p{
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+li{
+    list-style: none;
+    color: #fff333;
+    font-size: 1 rem;
+    padding: 5px;
+}
+
+h3{
+    padding: 10px 5px;
+}
+
+/*===================================================================
+blog posts
+====================================================================*/
+
+.cat-card-b {
+    width: 47%;
+}
+
+.cat-card-top-b {
+    width: 100%;
+    height: 300px;
+    border: 1px solid #ff2341;
+    border-radius: 10px;
+}
+
+.cat-card-blog {
+    margin: auto;
+    width: 60%;
+    
+}
+
+.cat-card-page {
+    margin: auto;
+    width: 60%;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.cat-card-body {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem 0;
+}
+
+.cat-card-title {
+    font-size: 2rem;
+    font-weight:bolder;
+    text-transform: uppercase;
+    padding: 0.5rem 0;
+    color: red;
+    font-family: 'Work Sans', sans-serif;
+    cursor: pointer;
+    transition: color 1s ease-in-out ;
+}
+
+.cat-card-title:hover {color: black;}
+
+.cat-card-desc {
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: #fff333;
+    font-family: 'Work Sans', sans-serif;
+    transition: color 2s ease-in-out;
+}
+
+.post-span:hover {
+    color: red;
+}
+
+.cat-card-desc-main {
+    margin: 1rem 0;
+    font-size: 1.2rem;
+    color: #fff666;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.post-link {
+    color: red; 
+    font-weight: bolder; 
+    text-decoration:underline; 
+    transition: "ext-decoration" 1s ease-in-out ;
+}
+
+.post-link:hover {
+    text-decoration: none;
+}
